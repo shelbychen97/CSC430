@@ -26,6 +26,12 @@ BoolC extend [
 ]
 
 BoolC extend [
+	interp [
+		^bool 
+	]
+]
+
+BoolC extend [
         printOn: stream [
                 <category: 'printing'>
                 super printOn: stream.
